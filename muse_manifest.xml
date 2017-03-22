@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="locusnine.com" resolutions="1x" timestamp="1484198449587">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="locusnine.com" resolutions="1x" timestamp="1490159484152">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="3911302654" ref="index"/>
+    <file name="index.css" crc="134392399" ref="index"/>
     <file name="nomq_index.css" crc="79777937" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -17,5 +17,5 @@
     <file name="logo-png.png" crc="84566304" seo="true" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="367349467" seo="true" mt="1484198308155" redirect="true"/>
+  <file name="index.html" crc="3778011761" seo="true" mt="1490159437218" redirect="true"/>
 </manifest>
