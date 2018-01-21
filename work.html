@@ -8,7 +8,7 @@
         <meta name="keywords" content="">
         <meta name="author" content="traivan98">
 
-        <title>Mosaic one</title>
+        <title>Portfolio grid gutterless 2</title>
 
 
 
@@ -81,59 +81,9 @@
                         <nav>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li class="active"><a href="#">Portfolio</a>
-                                   <ul>
-                                       <li><a href="#">filter</a>
-                                          <ul>
-                                              <li><a href="portfolio-with-filter.html">filter</a></li>
-                                              <li><a href="portfolio-without-filter.html">Without filter</a></li>
-                                          </ul>
-                                       </li>
-                                       <li><a href="#">layout</a>
-                                          <ul>
-                                              <li><a href="portfolio-fullwidth.html">fillwidth</a></li>
-                                              <li><a href="portfolio-grid-4.html">container</a></li>
-                                          </ul>
-                                       </li>
-                                       <li><a href="#">Masonry</a>
-                                          <ul>
-                                              <li><a href="masonry-2.html">masonry 2</a></li>
-                                              <li><a href="masonry-3.html">masonry 3</a></li>
-                                              <li><a href="masonry-4.html">masonry 4</a></li>
-                                              <li><a href="masonry-gutter-2.html">gutter 2</a></li>
-                                              <li><a href="masonry-gutter-3.html">gutter 3</a></li>
-                                              <li><a href="masonry-gutter-4.html">gutter 4</a></li>
-                                          </ul>
-                                       </li>
-                                       <li><a href="#">Grid</a>
-                                          <ul>
-                                            <li><a href="portfolio-grid-2.html">grid 2</a></li>
-                                            <li><a href="portfolio-grid-3.html">grid 3</a></li>
-                                            <li><a href="portfolio-grid-4.html">grid 4</a></li>
-                                            <li><a href="portfolio-grid-gutter-2.html">gutter 2</a></li>
-                                            <li><a href="portfolio-grid-gutter-3.html">gutter 3</a></li>
-                                            <li><a href="portfolio-grid-gutter-4.html">gutter 4</a></li>
-                                          </ul>
-                                       </li>
-                                       <li><a href="#">Mosaic</a>
-                                          <ul>
-                                              <li><a href="mosaic-1.html">Mosaic 1</a></li>
-                                              <li><a href="mosaic-2.html">Mosaic 2</a></li>
-                                          </ul>
-                                       </li>
-                                       <li><a href="#">Single</a>
-                                          <ul>
-                                              <li><a href="single-portfolio.html">Image</a></li>
-                                              <li><a href="slider-portfolio.html">Slider</a></li>
-                                              <li><a href="parallax-portfolio.html">Parallax</a></li>
-                                          </ul>
-                                       </li>
-                                   </ul>
-                                </li>
+                                <li class="active"><a href="work.html">Work</a></li>
                                 <li><a href="about.html">About</a></li>
-                                <li><a href="blog.html">Journal</a></li>
                                 <li><a href="contact.html">Contact</a></li>
-                                <li><a href="#">Buy</a></li>
                             </ul>
                         </nav>
                     </header>
@@ -146,7 +96,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-xs-12">
-                        <h1>Mosaic without <span class="theme-color">space.</span></h1>
+                        <h1>Portflio grid gutter <span class="theme-color">2 column</span></h1>
                         <img src="images/branding-border.png" alt="" class="heading-border">
                         <p>Through brand strategy and design, we craft experiences that help brands stand out as well as stand for something.</p>
                     </div>
@@ -155,83 +105,51 @@
         </div>
         <!--/ END page title section -->
         <div class="container">
+            <!-- work filter -->
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="atom-portfolio-filter text-left list-inline">
+                        <li><a href="#" data-filter="*" class="active">All</a></li>
+                        <li><a href="#" data-filter=".creative">Art Work</a></li>
+                        <li><a href="#" data-filter=".corporate">Web Design</a></li>
+                        <li><a href="#" data-filter=".design">Design</a></li>
+                        <li><a href="#" data-filter=".video">Photography</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/ work filter -->
             <!-- work grid -->
-            <div class="work-grids-area hover-one masonry no-gutter" id="atom-works-grid">
-                <div class="col-md-4 col-xs-12 atom-work-item creative corporate video">
-                   <a href="parallax-portfolio.html">
-                       <img src="images/portfolio/mosic/1.jpg" alt="" class="img-responsive">
+            <div class="work-grids-area hover-one" id="atom-works-grid">
+                <div class="col-sm-6 col-xs-12 atom-work-item creative corporate video">
+                   <a href="work-details.html">
+                       <img src="images/portfolio/grid/1.jpg" alt="" class="img-responsive">
                        <div class="desc text-center">
                            <h5>project title</h5>
                            <p>art work</p>
                        </div>
                    </a>
                 </div>
-                <div class="col-md-4 col-xs-12 atom-work-item corporate video design">
-                   <a href="slider-portfolio.html">
-                       <img src="images/portfolio/mosic/2.jpg" alt="" class="img-responsive">
+                <div class="col-sm-6 col-xs-12 atom-work-item corporate video design">
+                   <a href="work-details.html">
+                       <img src="images/portfolio/grid/2.jpg" alt="" class="img-responsive">
                        <div class="desc text-center">
                            <h5>project title</h5>
                            <p>art work</p>
                        </div>
                    </a>
                 </div>
-                <div class="col-md-4 col-xs-12 atom-work-item corporate video design">
-                   <a href="single-portfolio.html">
-                       <img src="images/portfolio/mosic/3.jpg" alt="" class="img-responsive">
+                <div class="col-sm-6 col-xs-12 atom-work-item creative design">
+                   <a href="work-details.html">
+                       <img src="images/portfolio/grid/3.jpg" alt="" class="img-responsive">
                        <div class="desc text-center">
                            <h5>project title</h5>
                            <p>art work</p>
                        </div>
                    </a>
                 </div>
-                <div class="col-md-8 col-xs-12 atom-work-item corporate video design">
-                   <a href="slider-portfolio.html">
-                       <img src="images/portfolio/mosic/4.jpg" alt="" class="img-responsive">
-                       <div class="desc text-center">
-                           <h5>project title</h5>
-                           <p>art work</p>
-                       </div>
-                   </a>
-                </div>
-                <div class="col-md-4 col-xs-12 atom-work-item corporate video design">
-                   <a href="parallax-portfolio.html">
-                       <img src="images/portfolio/mosic/5.jpg" alt="" class="img-responsive">
-                       <div class="desc text-center">
-                           <h5>project title</h5>
-                           <p>art work</p>
-                       </div>
-                   </a>
-                </div>
-                <div class="col-md-8 col-xs-12 atom-work-item corporate video design">
-                   <a href="single-portfolio.html">
-                       <img src="images/portfolio/mosic/6.jpg" alt="" class="img-responsive">
-                       <div class="desc text-center">
-                           <h5>project title</h5>
-                           <p>art work</p>
-                       </div>
-                   </a>
-                </div>
-                <div class="col-md-4 col-xs-12 atom-work-item corporate video design">
-                   <a href="parallax-portfolio.html">
-                       <img src="images/portfolio/mosic/8.jpg" alt="" class="img-responsive">
-                       <div class="desc text-center">
-                           <h5>project title</h5>
-                           <p>art work</p>
-                       </div>
-                   </a>
-                </div>
-                <div class="col-md-4 col-xs-12 atom-work-item corporate video design">
-                   <a href="single-portfolio.html">
-                       <img src="images/portfolio/mosic/9.jpg" alt="" class="img-responsive">
-                       <div class="desc text-center">
-                           <h5>project title</h5>
-                           <p>art work</p>
-                       </div>
-                   </a>
-                </div>
-                <div class="col-md-4 col-xs-12 atom-work-item corporate video design">
-                   <a href="slider-portfolio.html">
-                       <img src="images/portfolio/mosic/7.jpg" alt="" class="img-responsive">
+                <div class="col-sm-6 col-xs-12 atom-work-item corporate video">
+                   <a href="work-details.html">
+                       <img src="images/portfolio/grid/4.jpg" alt="" class="img-responsive">
                        <div class="desc text-center">
                            <h5>project title</h5>
                            <p>art work</p>
