@@ -579,8 +579,7 @@ hr {
     06. ABOUT PAGE
 ============================================================ */
 .about-fullimg {
-  background-size: cover;
-  background-position: center;
+  height: 500px;
 }
 
 /* =========================================================== 
