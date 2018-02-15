@@ -895,7 +895,9 @@ hr {
     color: #0ADCD5; 
     line-height: 36px;    
 }
-@media only screen 
-  and (max-device-width: 1024px){     
-  .iFrame{ display:none;}
+
+@media screen and (max-width: 1024px) {
+    .iFrame {
+        display: none !important;
+    }
 }
